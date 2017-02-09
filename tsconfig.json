@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "declaration": true
+    },
+    "files": [
+        "index.ts",
+        "example.ts"
+    ]
+}

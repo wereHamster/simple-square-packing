@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Square Packing Example</title>
+
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; display: flex; justify-content: center; align-items: center; flex-direction: column; }
+        svg { display: block; box-shadow: 0 0 3px rgba(0,0,0,.4); }
+        input {font-size: 18px; line-height: 1; height: 32px; transition: all .2s; cursor: pointer; outline: none; border: 1px solid transparent; box-shadow: 0 0 3px rgba(0,0,0,.4); padding: 5px 8px; margin-bottom: 8px; display: block; width: calc(100% - 80px);}
+        input:hover {box-shadow: 0 0 5px rgba(140,0,0,.8);}
+        input:focus {box-shadow: 0 0 5px rgba(140,0,0,.8); border: 1px solid rgba(140,0,0,0.6);}
+    </style>
+</head>
+<body>
+    <input autofocus type="text" value="0.36, 0.36, 0.32, 0.22" />
+    <svg></svg>
+    <script src="./bundle.js"></script>
+</body>
+</html>

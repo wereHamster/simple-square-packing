@@ -1,0 +1,24 @@
+{
+  "name": "simple-square-packing",
+  "version": "1.0.0",
+  "description": "Simple Square Packing",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:watch": "tsc --watch",
+    "bundle": "rollup -c --output bundle.js"
+  },
+  "author": "Tomas Carnecky <tomas.carnecky@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/d3": "^4.4.1",
+    "@types/d3-shape": "^1.0.7",
+    "d3-selection": "^1.0.3",
+    "d3-shape": "^1.0.4",
+    "rollup": "0.41.4",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "typescript": "2.1.5"
+  }
+}
