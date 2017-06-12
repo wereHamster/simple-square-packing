@@ -12,13 +12,13 @@
   "author": "Tomas Carnecky <tomas.carnecky@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/d3": "^4.4.1",
-    "@types/d3-shape": "^1.0.7",
-    "d3-selection": "^1.0.3",
-    "d3-shape": "^1.0.4",
-    "rollup": "0.41.4",
-    "rollup-plugin-commonjs": "^7.0.0",
-    "rollup-plugin-node-resolve": "^2.0.0",
-    "typescript": "2.1.5"
+    "@types/d3": "^4.9.0",
+    "@types/d3-shape": "^1.2.0",
+    "d3-selection": "^1.1.0",
+    "d3-shape": "^1.2.0",
+    "rollup": "^0.42.0",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "typescript": "^2.3.4"
   }
 }
