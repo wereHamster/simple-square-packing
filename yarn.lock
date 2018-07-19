@@ -115,9 +115,9 @@
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/@types/d3-selection/-/d3-selection-1.0.9.tgz#9065f95f931468eb2a5ad5ba57531a8bb3c1e1f1"
 
-"@types/d3-shape@*", "@types/d3-shape@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@types/d3-shape/-/d3-shape-1.2.0.tgz#520a12d3867e61d1fd49c75a8ffa7ce596cab43e"
+"@types/d3-shape@*", "@types/d3-shape@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@types/d3-shape/-/d3-shape-1.2.3.tgz#cadc9f93a626db9190f306048a650df4ffa4e500"
   dependencies:
     "@types/d3-path" "*"
 
