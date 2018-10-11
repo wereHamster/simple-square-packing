@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js: "10"
+
+cache:
+  - node_modules
+
+matrix:
+  include:
+    - name: "Build"
+      script: ./node_modules/.bin/tsc
