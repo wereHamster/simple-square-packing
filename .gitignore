@@ -1,5 +1,3 @@
-index.js
-index.d.ts
-example.js
-example.d.ts
-node_modules/
+/node_modules/
+/lib/
+/example/app.js

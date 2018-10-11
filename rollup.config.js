@@ -1,8 +1,7 @@
-import nodeResolve from 'rollup-plugin-node-resolve';
+import nodeResolve from "rollup-plugin-node-resolve";
 
 export default {
-  entry: 'example.js',
-  plugins: [ nodeResolve({jsnext: true, main: true}) ],
-  format: 'iife',
-  moduleName: 'm',
+  input: "lib/example.js",
+  plugins: [nodeResolve({ jsnext: true, main: true })],
+  output: { file: "example/app.js", format: "iife" }
 };

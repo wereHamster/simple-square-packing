@@ -1,5 +1,4 @@
-import {select} from 'd3-selection';
-import {line} from 'd3-shape';
+import {select, line} from 'd3';
 import {Square, packSquares} from './index';
 
 
