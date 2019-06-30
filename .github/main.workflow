@@ -1,6 +1,6 @@
 workflow "Main" {
   on = "push"
-  resolves = ["TypeScript"]
+  resolves = ["TypeScript", "Rollup"]
 }
 
 action "Install" {
@@ -12,4 +12,10 @@ action "TypeScript" {
   needs = "Install"
   uses = "docker://node"
   args = "./node_modules/.bin/tsc"
+}
+
+action "Rollup" {
+  needs = ["Install", "TypeScript"]
+  uses = "docker://node"
+  args = "./node_modules/.bin/rollup -c"
 }
