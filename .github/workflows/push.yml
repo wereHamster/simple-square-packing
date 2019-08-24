@@ -1,0 +1,20 @@
+on: push
+name: Main
+jobs:
+  install:
+    name: Install
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Install
+      uses: actions/npm@master
+      with:
+        args: ci
+    - name: TypeScript
+      uses: docker://node
+      with:
+        args: ./node_modules/.bin/tsc
+    - name: Rollup
+      uses: docker://node
+      with:
+        args: ./node_modules/.bin/rollup -c
