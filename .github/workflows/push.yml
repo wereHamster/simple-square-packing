@@ -6,15 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Install
-      uses: actions/npm@master
-      with:
-        args: ci
+    - uses: actions/setup-node@v1
+    - run: npm ci
     - name: TypeScript
-      uses: docker://node
-      with:
-        args: ./node_modules/.bin/tsc
+      run: ./node_modules/.bin/tsc
     - name: Rollup
-      uses: docker://node
-      with:
-        args: ./node_modules/.bin/rollup -c
+      run: ./node_modules/.bin/rollup -c
