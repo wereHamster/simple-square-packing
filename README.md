@@ -1,5 +1,7 @@
 # Simple Square Packing Algorithm
 
+You can find an interactive example here: https://werehamster.github.io/simple-square-packing
+
 ```javascript
 import {packSquares} from './index';
 
