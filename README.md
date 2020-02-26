@@ -2,6 +2,8 @@
 
 You can find an interactive example here: https://werehamster.github.io/simple-square-packing
 
+Blog post explaining the algorithm: https://blog.interactivethings.com/simple-square-packing-algorithm-ddd3c2793711
+
 ```javascript
 import {packSquares} from './index';
 
