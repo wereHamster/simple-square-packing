@@ -12,7 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/d3": "^5.0.0",
-    "d3": "^5.7.0",
+    "d3": "^6.0.0",
     "rollup": "^2.1.0",
     "rollup-plugin-node-resolve": "^5.0.0",
     "typescript": "^3.1.2"
