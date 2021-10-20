@@ -11,7 +11,7 @@
   "author": "Tomas Carnecky <tomas.carnecky@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/d3": "^6.2.0",
+    "@types/d3": "^7.1.0",
     "d3": "^6.1.1",
     "rollup": "^2.1.0",
     "rollup-plugin-node-resolve": "^5.0.0",
